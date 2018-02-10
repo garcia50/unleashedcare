@@ -1,0 +1,10 @@
+SCHEMA DESIGN 
+
+user         Categories      Services       Comments       CategoryServices
+------------------------------------------------------------------------------
+name         title           title          content        category_id
+email                        description    user_id        service_id
+location                     rating :int    service_id
+role                                        user_id
+password
+  
